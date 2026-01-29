@@ -4,48 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="index1.css">
+    <link rel="stylesheet" href="index.css">
      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 
 </head>
 <body>
-    <div class="container-fluid  p-4  bg-warning-subtle">
-        <div class="row">
-           <div class="col-4">
-                <div class="row">
-                    <img class="col-2" src="images/tasse.png" alt="logo du site" width="80px" height="80px">
-                     <p class="col-2" width="200px" height="200px" text-center> Les Saveur</p>
-                </div>
-           </div>
-           <div class="col-8 d-flex justify-content-around align-items-center">
-                <ul class="menu nav justify-content-end">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Accueil</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">A propos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Menu</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled" aria-disabled="true">Services</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">avis</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
-                    </li>
-                </ul>
-           </div>
-         </div>
-    </div>
+    <!-- Header & navigation-->
+   <header>
+     <nav class="navbar navbar-expand-lg container">
+            <a class="logo" href="#acceuil"> <img class="logo" src="images/tasse.png" alt="Le Saveur"> Le saveur</a>
+            
+        </nav>
+   </header>
+
+    <!-- Hero Section -->
     <div class="hero bg-family-arial text-white text-center bg-secondary bg-opacity-80 mt-10">
          <h1 class="titre">bienvenu au Saveur</h1>
         <h5>une experience culinaire vous attend</h5>
          <button class="reso btn btn-light ">Réserver une table</button>
     </div>
+    <!-- About Section -->
     <div class="container text-center">
         <h2 class="h2">A propos de Nous</h2>
     </div>
@@ -70,16 +48,43 @@
             </div>
         </div>
     </div>
-
-
-
-
-
-
-
-
-
-
+       <!-- menu section -->
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h1> NOTRE MENU</h1>
+            </div>
+            <div class="row">
+                <button class=" col-2 btn btn-primary">tout les plats</button>
+                <button class="col-2 btn btn-secondary">entres</button>
+                <button class="col-2 btn btn-light">plats</button>
+                <button class="col-2 btn btn-outline-dark">desserts</button>
+                <button class="col-2 btn btn-success">boissons</button> 
+            </div>
+        </div>
+    </div>
+    <div class="container text-center">
+        <div class="row">
+            <div class="col-sm-5 col-md-6" style="margin-left:5px; color: rgb(247, 159, 27); border: 1px solid rgb(247, 159, 27);">foie gras poele <br><br> blabaaaaaaaaaaaaa</div>
+            <div class="col-sm-5 offset-sm-2 col-md-6 offset-md-0" style="margin-left:5px; color: rgb(247, 159, 27);">souffle au chocolat <br><br> blabaaaaaaaaaaaaa</div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6 col-md-5 col-lg-6">.col-sm-6 .col-md-5 .col-lg-6</div>
+            <div class="col-sm-6 col-md-5 offset-md-2 col-lg-6 offset-lg-0">.col-sm-6 .col-md-5 .offset-md-2 .col-lg-6 .offset-lg-0</div>
+        </div>
+    </div>
+    <!-- Services Section -->
+    <div class="container">
+    </div>
+    <!-- Testimonials Section -->
+    <div class="container">
+    </div>
+    <!-- Contact Section -->
+    <div class="container">
+    </div>
+    <!-- Footer Section -->
+    <div class="container">
+    </div>
 
 
 
