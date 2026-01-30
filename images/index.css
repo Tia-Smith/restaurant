@@ -9,3 +9,52 @@
     text-decoration: none;
     color: var(--primaryColor);
 }
+.nav-link{
+    text-decoration: none;
+    color: var(--textColor);
+    font-size: 1.2rem;
+    margin-left: 2rem;
+}
+:hover{
+        color: chocolate;
+    }
+
+    .about-section {
+  background-color: #c88c3e; /* fond clair */
+  padding: 80px 20px;
+}
+
+.about-content {
+  max-width: 700px;
+  margin-left: 80px; /* aligne le texte à gauche comme sur l’image */
+}
+
+.about-title {
+  font-size: 36px;
+  color: #d8a46f; /* beige/or */
+  margin-bottom: 15px;
+  font-weight: 500;
+}
+
+.about-text {
+  font-size: 16px;
+  line-height: 1.8;
+  color: #333;
+  margin-bottom: 40px;
+}
+
+.about-btn {
+  display: inline-block;
+  background-color: #d8a46f;
+  color: #fff;
+  text-decoration: none;
+  padding: 15px 35px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+
+.about-btn:hover {
+  background-color: #c18f5f;
+}
