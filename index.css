@@ -1,0 +1,259 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo{
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--primaryColor);
+}
+.nav-link{
+    text-decoration: none;
+    color: var(--textColor);
+    font-size: 1.2rem;
+    margin-left: 2rem;
+}
+.reso:hover {
+    background-color: orange !important;
+    color: white !important;
+    border-color: orange !important;
+    transform: translateY(-3px);
+    box-shadow: 0 10px 25px rgba(255, 165, 0, 0.4);
+}
+
+
+
+.about-section {
+  padding: 80px 20px;
+}
+
+.about-content {
+  max-width: 700px;
+  margin-left: 80px; /* aligne le texte à gauche comme sur l’image */
+}
+
+.about-title {
+  font-size: 36px;
+  color: #d8a46f; /* beige/or */
+  margin-bottom: 15px;
+  font-weight: 500;
+}
+
+.about-text {
+  font-size: 16px;
+  line-height: 1.8;
+  color: #333;
+  margin-bottom: 40px;
+}
+
+.about-btn {
+  display: inline-block;
+  background-color: #d8a46f;
+  color: #fff;
+  text-decoration: none;
+  padding: 15px 35px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+
+.about-btn:hover {
+  background-color: #c18f5f;
+}
+.menu-link:hover {
+    color: orange;
+}
+
+body {
+    background-color: #ffffff;
+    font-family: 'Segoe UI', sans-serif;
+}
+/*header*/
+#navbarNav {
+    ;
+    color: #d9a66c;
+    background: transparent;
+    transition: all 0.3s ease;
+}
+
+/* Boutons filtres */
+.btn-filter {
+    border: 2px solid #d9a66c;
+    color: #d9a66c;
+    border-radius: 50px;
+    padding: 8px 20px;
+    background: transparent;
+    transition: all 0.3s ease;
+}
+
+.btn-filter:hover,
+.btn-filter.active {
+    background-color: #d9a66c;
+    color: rgb(255, 255, 254);
+}
+
+/* Carte menu */
+.menu-card {
+    background-color: #f9f7f4;
+    padding: 25px;
+    border-radius: 15px;
+    border-left: 5px solid #d9a66c;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.menu-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
+/* Titre */
+.menu-card h5 {
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+/* Description */
+.menu-card p {
+    font-style: italic;
+    color: #555;
+    margin: 0;
+}
+
+/* Prix */
+.price {
+    color: #d9a66c;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* Section */
+.services-section {
+    background-color: #faf8f5;
+}
+
+/* Ligne sous le titre */
+.title-line {
+    width: 60px;
+    height: 3px;
+    background-color: #d9a66c;
+    margin-top: 10px;
+}
+
+/* Carte service */
+.service-card {
+    background: #ffffff;
+    padding: 40px 25px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    height: 100%;
+}
+
+.service-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.08);
+}
+
+/* Icônes */
+.service-icon {
+    font-size: 45px;
+    color: #d9a66c;
+    margin-bottom: 20px;
+}
+
+/* Titres */
+.service-card h5 {
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+/* Texte */
+.service-card p {
+    color: #555;
+    font-size: 15px;
+    line-height: 1.6;
+}
+/* Section avis */
+.testimonials-section {
+    background-color: #ffffff;
+}
+
+/* Carte avis */
+.testimonial-card {
+    background-color: #f9f7f4;
+    padding: 30px;
+    border-radius: 15px;
+    border-left: 5px solid #d9a66c;
+    height: 100%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.testimonial-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 35px rgba(0,0,0,0.08);
+}
+
+/* Étoiles */
+.stars {
+    color: #d9a66c;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+/* Texte avis */
+.testimonial-text {
+    font-style: italic;
+    color: #555;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+/* Nom client */
+.client-name {
+    font-weight: 600;
+    color: #000;
+}
+
+/* Ligne sous titre  */
+.title-line {
+    width: 60px;
+    height: 3px;
+    background-color: #d9a66c;
+    margin-top: 10px;
+}
+
+/* Liens du menu */
+.menu-link {
+    color: white !important;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+/* Hover */
+.menu-link:hover {
+    color: orange !important;
+}
+
+/* Lien actif (Accueil par défaut) */
+.menu-link.active {
+    color: orange !important;
+}
+
+/* Optionnel : effet underline élégant */
+.menu-link::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 2px;
+    background: orange;
+    transition: width 0.3s ease;
+    margin-top: 4px;
+}
+
+.menu-link:hover::after,
+.menu-link.active::after {
+    width: 100%;
+}

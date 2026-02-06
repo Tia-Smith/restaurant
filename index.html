@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>restaurant</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="index.css">
      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
@@ -11,104 +11,298 @@
 </head>
 <body>
     <!-- Header & navigation-->
-   <header class="bg-dark bg-opacity-65 ">
-     <nav class="navbar navbar-expand-lg container">
-            <a class="logo" href="#accueil"> 
-                <i class="bi bi-cup-hot" style="width: 100px; height: 100px; color: chocolate;"></i> Le Saveur
-            </a>         
-            <div class="navbar-collapse collapse show text-white"  id="navbarNav" >
-                <ul class="navbar-nav ms-auto" style="color: white;">
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#accueil">Accueil</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#about">À Propos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#menu">Menu</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#services">Services</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#testimonials">Avis</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-   </header>
+  <header class="bg-dark bg-opacity-100">
+    <nav class="navbar navbar-expand-lg container">
+        <a class="logo text-white text-decoration-none" href="#accueil"> 
+            <i class="bi bi-cup-hot me-2" style="color: chocolate;"></i>
+            Le Saveur
+        </a>         
+
+        <div class="navbar-collapse collapse show" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link menu-link active" href="#accueil">Accueil</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link menu-link" href="#about">À Propos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link menu-link" href="#menu">Menu</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link menu-link" href="#services">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link menu-link" href="#testimonials">Avis</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link menu-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
 
     <!-- Hero Section -->
-    <div class="hero bg-family-arial text-white text-center bg-dark bg-opacity-65 " style="padding: 150px;">
+    <div class="hero bg-family-arial text-white text-center bg-dark bg-opacity-75 " style="padding: 150px;">
          <h1 class="titre" style="font-size: 4rem;">bienvenu au Saveur</h1>
         <h5>une experience culinaire vous attend</h5>
          <button class="reso btn btn-light " style="margin-top: 80px;">Réserver une table</button>
     </div>
     <!-- About Section -->
     <div class="about-section text-center " style="padding: 50px 0;" id="about ">
-        <h2 class="h2" style="font-size: 3rem; margin: 50px 0;">A propos de Nous</h2>
+        <h2 class="h2" style="font-size: 3rem; margin: 50px 0;"> <span class="border">A propos</span> de Nous</h2>
     </div>
-    <div class="container">
+    <div class="container bg-dark bg-opacity-10"style="border-radius: 10px; padding: 50px; margin-bottom: 100px;">
         <div class="row">
             <div class="col-6" style="margin: 100px; margin-left: -10px; width: 100px;">
-                <img src="images/telcu.jfif" width="500px" style="border-radius: 10px;" alt="saveur">
+                <img src="images/telcu.jfif" width="540px" style="border-radius: 10px;" alt="saveur">
             </div>
-           <div class="about-content col-6" style="margin-left: 400px; padding-top: 95px;">
+           <div class="about-content col-6" style="margin-left: 400px; padding-top: 15px;">
                 <h2 class="about-title">Depuis 2010</h2>
                 <p class="about-text">
-            Le Saveur est une institution culinaire renommée, offrant une cuisine gastronomique
-            fine dans une ambiance chaleureuse et élégante. Notre chef étoilé prépare chaque plat
-            avec passion et créativité.
+                Le Saveur est une institution culinaire renommée, offrant une cuisine gastronomique
+                fine dans une ambiance chaleureuse et élégante. Notre chef étoilé prépare chaque plat
+                avec passion et créativité.
                  </p>
                  <h2 class="about-title">Notre Philosophie</h2>
                 <p class="about-text">
-            Nous croyons en l'utilisation d'ingrédients frais et locaux, sourcés directement de
-            nos producteurs partenaires. Chaque assiette est une création unique qui raconte une histoire.
+                Nous croyons en l'utilisation d'ingrédients frais et locaux, sourcés directement de
+                nos producteurs partenaires. Chaque assiette est une création unique qui raconte une histoire.
                  </p>
                  <h2 class="about-title">L'Équipe</h2>
                  <p class="about-text">
-            Notre équipe de 25 professionnels dévouée garantit un service impeccable et une
-            expérience mémorable à chaque visite.
+                Notre équipe de 25 professionnels dévouée garantit un service impeccable et une
+                expérience mémorable à chaque visite.
                  </p>
-            <a href="#" class="about-btn">Découvrir Notre Menu</a>
+                <a href="#" class="about-btn" style="border-radius: 5px; color: rgb(251, 249, 246); padding: 10px 20px;">Découvrir Notre Menu</a>
+         </div>
+        </div>
+    </div>
+     <!-- menu section -->
+    <div class="container my-5">
+         <div class="text-center mb-5">
+            <h1 class="fw-bold">Notre Menu</h1>
+            <div class="title-line mx-auto"></div>
+        </div>
+         <!-- FILTRES -->
+        <div class="d-flex justify-content-center gap-3 mb-5 flex-wrap">
+            <button class="btn btn-filter active">Tous les Plats</button>
+            <button class="btn btn-filter">Entrées</button>
+            <button class="btn btn-filter">Plats</button>
+            <button class="btn btn-filter">Desserts</button>
+            <button class="btn btn-filter">Boissons</button>
+         </div>
+          <!-- LISTE DES PLATS -->
+        <div class="row g-4">
+            <div class="col-md-6">
+                <div class="menu-card">
+                     <div class="d-flex justify-content-between">
+                        <h5>Foie Gras Poêlé</h5>
+                         <span class="price">28€</span>
+                     </div>
+                    <p>Foie gras frais avec compotée de figues et pain d'épices</p>
+                 </div>
+            </div>
+                <div class="col-md-6">
+                    <div class="menu-card">
+                        <div class="d-flex justify-content-between">
+                            <h5>Soufflé au Chocolat</h5>
+                            <span class="price">12€</span>
+                        </div>
+                        <p>Soufflé chaud au chocolat noir avec sauce vanille</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="menu-card">
+                        <div class="d-flex justify-content-between">
+                            <h5>Velouté de Châtaignes</h5>
+                            <span class="price">14€</span>
+                        </div>
+                        <p>Velouté onctueux avec truffe et crème fraîche</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="menu-card">
+                        <div class="d-flex justify-content-between">
+                            <h5>Tarte Tatin</h5>
+                            <span class="price">10€</span>
+                        </div>
+                        <p>Tarte aux pommes caramélisées et crème fraîche</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="menu-card">
+                        <div class="d-flex justify-content-between">
+                            <h5>Tarte Tatin</h5>
+                            <span class="price">10€</span>
+                        </div>
+                        <p>Tarte aux pommes caramélisées et crème fraîche</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="menu-card">
+                        <div class="d-flex justify-content-between">
+                            <h5>Tarte Tatin</h5>
+                            <span class="price">10€</span>
+                        </div>
+                        <p>Tarte aux pommes caramélisées et crème fraîche</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="menu-card">
+                        <div class="d-flex justify-content-between">
+                            <h5>Tarte Tatin</h5>
+                            <span class="price">10€</span>
+                        </div>
+                        <p>Tarte aux pommes caramélisées et crème fraîche</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="menu-card">
+                        <div class="d-flex justify-content-between">
+                            <h5>Tarte Tatin</h5>
+                            <span class="price">10€</span>
+                        </div>
+                        <p>Tarte aux pommes caramélisées et crème fraîche</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="menu-card">
+                        <div class="d-flex justify-content-between">
+                            <h5>Tarte Tatin</h5>
+                            <span class="price">10€</span>
+                        </div>
+                        <p>Tarte aux pommes caramélisées et crème fraîche</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="menu-card">
+                        <div class="d-flex justify-content-between">
+                            <h5>Tarte Tatin</h5>
+                            <span class="price">10€</span>
+                        </div>
+                        <p>Tarte aux pommes caramélisées et crème fraîche</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="menu-card">
+                        <div class="d-flex justify-content-between">
+                            <h5>Tarte Tatin</h5>
+                            <span class="price">10€</span>
+                        </div>
+                        <p>Tarte aux pommes caramélisées et crème fraîche</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="menu-card">
+                        <div class="d-flex justify-content-between">
+                            <h5>Tarte Tatin</h5>
+                            <span class="price">10€</span>
+                        </div>
+                        <p>Tarte aux pommes caramélisées et crème fraîche</p>
+                    </div>
+                </div>
 
-  </div>
-        </div>
-    </div>
-       <!-- menu section -->
-    <div class="container">
-        <div class="row">
-            <div class="col">
-                <h1> NOTRE MENU</h1>
-            </div>
-            <div class="row">
-                <button class=" col-2 btn btn-primary">tout les plats</button>
-                <button class="col-2 btn btn-secondary">entres</button>
-                <button class="col-2 btn btn-light">plats</button>
-                <button class="col-2 btn btn-outline-dark">desserts</button>
-                <button class="col-2 btn btn-success">boissons</button> 
+
             </div>
         </div>
     </div>
-    <div class="container text-center">
-        <div class="row">
-            <div class="col-sm-5 col-md-6" style="margin-left:5px; color: rgb(247, 159, 27); border: 1px solid rgb(247, 159, 27);">foie gras poele <br><br> blabaaaaaaaaaaaaa</div>
-            <div class="col-sm-5 offset-sm-2 col-md-6 offset-md-0" style="margin-left:5px; color: rgb(247, 159, 27);">souffle au chocolat <br><br> blabaaaaaaaaaaaaa</div>
-        </div>
-        <div class="row">
-            <div class="col-sm-6 col-md-5 col-lg-6">.col-sm-6 .col-md-5 .col-lg-6</div>
-            <div class="col-sm-6 col-md-5 offset-md-2 col-lg-6 offset-lg-0">.col-sm-6 .col-md-5 .offset-md-2 .col-lg-6 .offset-lg-0</div>
-        </div>
-    </div>
+    
     <!-- Services Section -->
+    <section class="services-section py-5">
     <div class="container">
+
+        <!-- TITRE -->
+        <div class="text-center mb-5">
+            <h2 class="fw-bold">Nos Services</h2>
+            <div class="title-line mx-auto"></div>
+        </div>
+
+        <!-- CARTES -->
+        <div class="row g-4">
+
+            <div class="col-md-4">
+                <div class="service-card text-center">
+                    <i class="bi bi-calendar-event service-icon"></i>
+                    <h5>Réservations</h5>
+                    <p>Réservez votre table en ligne ou par téléphone pour une expérience sans stress</p>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="service-card text-center">
+                    <i class="bi bi-people service-icon"></i>
+                    <h5>Événements Privés</h5>
+                    <p>Organisez vos événements spéciaux dans nos salons privatisables</p>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="service-card text-center">
+                    <i class="bi bi-truck service-icon"></i>
+                    <h5>À Emporter</h5>
+                    <p>Commandez vos plats à emporter pour un repas à la maison</p>
+                </div>
+            </div>
+
+        </div>
     </div>
+</section>
     <!-- Testimonials Section -->
+   <section class="testimonials-section py-5">
     <div class="container">
+
+        <!-- TITRE -->
+        <div class="text-center mb-5">
+            <h2 class="fw-bold">Avis de Nos Clients</h2>
+            <div class="title-line mx-auto"></div>
+        </div>
+
+        <!-- AVIS -->
+        <div class="row g-4">
+
+            <div class="col-md-4">
+                <div class="testimonial-card">
+                    <div class="stars">
+                        ★★★★★
+                    </div>
+                    <p class="testimonial-text">
+                        "Une soirée magique ! La cuisine est exceptionnelle et le service impeccable. À recommander absolument !"
+                    </p>
+                    <span class="client-name">— Marie Dupont</span>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="testimonial-card">
+                    <div class="stars">
+                        ★★★★★
+                    </div>
+                    <p class="testimonial-text">
+                        "Les plats sont d'une finesse remarquable. Chaque bouchée est un poème. Nous reviendrons !"
+                    </p>
+                    <span class="client-name">— Jean Martin</span>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="testimonial-card">
+                    <div class="stars">
+                        ★★★★★
+                    </div>
+                    <p class="testimonial-text">
+                        "Meilleur restaurant de la ville ! L'ambiance, la cuisine, le service… Tout est parfait."
+                    </p>
+                    <span class="client-name">— Sophie Bernard</span>
+                </div>
+            </div>
+
+        </div>
     </div>
+</section>
+
     <!-- Contact Section -->
     <div class="container">
     </div>
