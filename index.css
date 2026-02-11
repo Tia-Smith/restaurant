@@ -257,3 +257,188 @@ body {
 .menu-link.active::after {
     width: 100%;
 }
+
+/* Section */
+.contact-section {
+    background-color: #f9f7f4;
+}
+
+/* Ligne sous titre */
+.title-line {
+    width: 60px;
+    height: 3px;
+    background-color: #d9a66c;
+    margin-top: 10px;
+}
+
+/* Icônes */
+.contact-icon {
+    font-size: 35px;
+    color: #d9a66c;
+    margin-bottom: 15px;
+}
+
+/* Formulaire */
+.contact-form .form-control {
+    border-radius: 10px;
+    padding: 12px;
+    border: 1px solid #ddd;
+    transition: all 0.3s ease;
+}
+
+.contact-form .form-control:focus {
+    border-color: #d9a66c;
+    box-shadow: 0 0 0 0.2rem rgba(217, 166, 108, 0.2);
+}
+
+/* Bouton */
+.contact-btn {
+    transition: all 0.3s ease;
+}
+
+.contact-btn:hover {
+    background-color: orange !important;
+    color: white !important;
+    border-color: orange !important;
+    transform: translateY(-3px);
+}
+/* Conteneur formulaire */
+.form-contact {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+/* Labels */
+.form-contact label {
+    font-weight: 600;
+    margin-bottom: 8px;
+    display: block;
+    color: #333;
+}
+
+/* Inputs, select, textarea */
+.form-contact input,
+.form-contact select,
+.form-contact textarea {
+    width: 100%;
+    padding: 12px 15px;
+    border-radius: 8px;
+    border: 2px solid #e5e5e5;
+    transition: all 0.3s ease;
+    outline: none;
+    background-color: #fff;
+}
+
+/* Effet au focus */
+.form-contact input:focus,
+.form-contact select:focus,
+.form-contact textarea:focus {
+    border-color: #ff7a00;
+    box-shadow: 0 0 0 3px rgba(255, 122, 0, 0.2);
+}
+
+/* Textarea */
+.form-contact textarea {
+    resize: none;
+    min-height: 150px;
+}
+/* ===== FOOTER ===== */
+footer {
+    background: linear-gradient(to right, #1f1f1f, #2b2b2b);
+    color: #ffffff;
+    padding: 60px 0 20px 0;
+}
+
+/* Titres colonnes */
+footer h4 {
+    color: #ff9c3f;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+/* Texte normal */
+footer p,
+footer li,
+footer a {
+    color: #dddddd;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+/* Liens navigation */
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li {
+    margin-bottom: 10px;
+}
+
+/* Hover liens */
+footer a:hover {
+    color: #ff7a00;
+    padding-left: 5px;
+}
+
+/* Icônes réseaux */
+.social-icons {
+    margin-top: 20px;
+}
+
+.social-icons a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: #ff9c3f;
+    color: white;
+    margin-right: 10px;
+    transition: all 0.3s ease;
+}
+
+.social-icons a:hover {
+    background-color: #ff7a00;
+    transform: translateY(-5px);
+}
+
+/* Contact icônes */
+.contact-info i {
+    color: #ff9c3f;
+    margin-right: 10px;
+}
+
+/* Ligne séparation */
+.footer-bottom {
+    border-top: 1px solid rgba(255,255,255,0.1);
+    margin-top: 40px;
+    padding-top: 20px;
+    text-align: center;
+    color: #bbbbbb;
+}
+
+.footer-bottom a {
+    color: #ff9c3f;
+}
+
+.footer-bottom a:hover {
+    color: #ff7a00;
+}
+/* ===== BOUTON CONTACT ===== */
+.btn-envoyer {
+    background-color: #ff9c3f;
+    color: #ffffff;
+    border: none;
+    padding: 15px;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+.btn-envoyer:hover {
+    background-color: #ff7a00;
+    transform: translateY(-3px);
+}
